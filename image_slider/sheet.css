@@ -1,0 +1,38 @@
+body{
+    background-color:#000;
+    overflow: hidden;
+}
+div{
+    
+    border: 10px solid #fffefe;
+    border-radius: 50px;
+     min-height: 50vh;
+     width: 70%;
+     position: relative;
+     margin:  20vh auto ;
+     background: url(/pic/luffy.jpeg) center/cover no-repeat;
+     box-shadow: 10px 10px 15px;
+     
+
+}
+a{
+    background-color: #ffffff4f;
+    position :absolute;
+    top:50%;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 5px 5px 5px;
+    cursor: pointer;
+    
+    
+}
+.next{
+    right: -4%;
+    transform: translateY(calc(-50%));
+}
+
+.prv{
+    left: -4%;
+    transform: translateY(calc(-50%));
+}
